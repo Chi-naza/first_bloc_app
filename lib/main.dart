@@ -1,3 +1,4 @@
+import 'package:first_bloc_app/Hooks_Tutorial/string_example.dart';
 import 'package:first_bloc_app/bloc-personsExample/bloc_intro_screen.dart';
 import 'package:first_bloc_app/bloc-personsExample/persons_bloc.dart';
 import 'package:first_bloc_app/cubit-example/cubit_example_screen.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       home: BlocProvider(
         create: (context) => PersonsBloc(),
-        child: const BlocIntroScreen(),
+        child: StringExampleHooks(),
       ),
     );
   }
