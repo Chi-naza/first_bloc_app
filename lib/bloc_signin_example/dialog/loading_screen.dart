@@ -82,7 +82,7 @@ class LoadingScreen {
     );
 
     // Displaying to the screen
-    state!.insert(overlay);
+    state.insert(overlay);
 
     return LoadingScreenController(
       close:(){
